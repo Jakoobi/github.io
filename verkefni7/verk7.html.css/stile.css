@@ -1,0 +1,103 @@
+
+body{
+    margin: auto;
+}
+.navs{
+    text-align: center;
+    display:grid;
+    grid-template-areas: "a a a";
+    background-color: rgb(135, 137, 135)
+}
+.navs a{
+    text-decoration:none;
+    border: 1px solid black;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+}
+.badmington{
+    background-color: rgb(108, 109, 109);
+    padding: 20px;
+    text-align: center;
+    border: black solid 1px;
+}
+.mainpart{
+    display: grid;
+    grid-template-areas: "c c"
+    "c2 c2";
+}
+.c{
+    margin:auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    grid-area: "c";
+}
+.c{
+    margin:auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    grid-area: "c";
+}
+.c2{
+    padding: 30px;
+    border: black solid 1px;
+    background-color: rgb(147, 149, 147);
+}
+body{
+    background-color: rgb(2, 2, 2);
+}
+footer{
+    background-color: rgb(148, 148, 148);
+    padding: 10px;
+}
+.h1maps{
+    font-size: 20px;
+    text-align: center;
+}
+footer ul li{
+    padding: 10px;
+    border: black solid 1px;
+}
+.navs a{
+    border: 1px solid black;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+}
+.navs2 a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+}
+.text{
+    padding: 15px;
+    background-color: rgb(148, 148, 148);
+    border: black solid 1px;
+}
+.navs2{
+    display:grid;
+    grid-template-areas: 1fr;
+}
+iframe {
+    margin:auto;
+    height: 300px;
+    width: 100%;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (min-width: 0px) and (max-width: 600px){
+footer{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+}
+
+
+
